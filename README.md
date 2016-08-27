@@ -29,19 +29,5 @@ conda config --add channels conda-forge
 ##### pymongo
 
 ### MongoDB 3.2
-#### İndirme
-cd Downloads
-wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.2.9.tgz
-#### Yükleme
-[Install MongoDB Community Edition From Tarball — MongoDB Manual 3.2](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-linux/) adresindeki yönergeler takip edildi.
-```bash
-tar -zxvf mongodb-linux-x86_64-ubuntu1604-3.2.9.tgz
-mkdir -p ~/Applications/MongoDB3.2
-cp -R -n mongodb-linux-x86_64-ubuntu1604-3.2.9/ ~/Applications/MongoDB3.2
-vim ~/.bashrc 
-```
-Alttaki satırı dosyanın sonuna ekle.
-```bash
-export PATH="/home/fenrihen/Applications/MongoDB3.2/bin:$PATH"
-```
-
+#### İndirme ve Yükleme
+[Install MongoDB Community Edition on Ubuntu — MongoDB Manual 3.2](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) adresindeki 1-4 yönergeleri takip edilir.
